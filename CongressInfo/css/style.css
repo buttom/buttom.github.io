@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;}
+#all-wrap{
+	width:960px;
+	margin:auto;
+	position:relative;}
+#all-wrap img{
+	position:relative;}
+#info-txt{
+	position:absolute;
+	z-index:-1;}
