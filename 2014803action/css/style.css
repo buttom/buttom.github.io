@@ -98,6 +98,7 @@ body{
 	}
 .m02{
 	float:right;
+	word-wrap: break-word;
 	}
 .title04{
 	background:url(../images/t04.png);
