@@ -55,7 +55,7 @@ body{
 	margin:0 0 18px 0;}
 .index-content{
 	background:url(../images/action_page.png) no-repeat center 50px;
-	height:238px;}
+	height:280px;}
 .index-content p,.index-content h3{
 	height:1px;
 	overflow:hidden;
@@ -116,3 +116,9 @@ body{
 	background:url(../images/t05.png);
 	width:463px;
 	height:29px;}
+.fb-class{
+	position:absolute;
+	left:103px;
+	top:475px;
+	color:#3f3a39;
+	font-family:15px;}
