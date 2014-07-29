@@ -55,7 +55,8 @@ body{
 	margin:0 0 18px 0;}
 .index-content{
 	background:url(../images/action_page.png) no-repeat center 50px;
-	height:1700px;}
+	height:2200px;
+	font-size:15px;}
 .index-content p,.index-content h3{
 	height:1px;
 	overflow:hidden;
@@ -128,10 +129,12 @@ body{
 	top:520px;
 	color:#3f3a39;
 	font-family:15px;
-	width:780px;}
-.index-content .action-txt h4{
+	width:765px;
+}
+.index-content .action-txt h4,.join-block h4{
 	font-size:24px;
-	margin:0 0 15px 0;}
+	margin:0 0 15px 0;
+	color:#3f3a39;}
 .index-content .action-txt p{
 	height:auto;
 	overflow:auto;
