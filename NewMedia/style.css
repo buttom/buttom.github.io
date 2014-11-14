@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;}
+#all{
+	width:960px;
+	margin:auto;}
+#all img{
+	display:block;}
+#word{
+	height:1px;
+	overflow:hidden;
+	line-height:10em;}
