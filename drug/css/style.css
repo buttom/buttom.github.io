@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;}
+h1{	line-height:1em;
+margin:0px;}
+#all-wrap{
+	width:100%;
+	max-width:1000px;
+	margin:auto;
+	padding:70px 0 0 0;
+	position:relative;}
+#login-block{
+	width:100%;
+	max-width:450px;
+	margin:30px auto;
+	background:#E4E4E4;
+		border-radius:15px;}
+#login-block h1{
+	font-size:28px;
+	text-align:center;
+	padding:13px;
+	line-height:1em;
+	background:#C3C3C3;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	}
+#login-block label{
+	display:block;}
+.keyin-txt{
+	width:95%;
+	height:35px;
+	line-height:35px;
+	font-size:20px;}
+#login-form{
+	padding:0 35px 15px 35px;
+	font-size:20px;}
+.btn-block{
+	text-align:center;}
+.btn{
+	font-size:20px;
+	padding:10px 30px;
+	cursor:pointer;
+	border-radius:5px;
+	background:#FF8E00;
+	border:none;
+	color:#fff;}
+.tright{
+	text-align:right;}
+.tcenter{
+	text-align:center;}
+table{
+	border-collapse:collapse;
+	line-height:1.5em;}
+.data-list-table{
+	border:6px solid #707a99;}
+.data-list-table td,.data-list-table th{
+	border:1px solid #707a99;
+	padding:0.7%;}
+.data-list-table th{
+	border-bottom:3px solid #707a99;
+	background:#c4c9d6;}
+.data-list-table tr:nth-child(even) td {
+    background: #dfe3ec;
+}
+.a-btn{
+	background:#FF8600;
+	color:#fff;
+	font-weight:bold;
+	display:block;
+	padding:7px 20px;
+	float:right;
+	text-decoration:none;
+	border-radius:8px;
+	font-size:18px;}
+#page-title h1{
+	float:left;
+	}
+#page-title{
+	overflow:hidden;
+	margin:0 0 10px 0;
+	background:#fff;
+	position:fixed;
+	width:72.5%;
+	max-width:1000px;
+	padding:10px;
+	top:0px;
+	background:#ffdbc3;}
+.data-table th{
+	border-right:3px solid #707a99;
+	border-bottom:1px solid #707a99;}
+.drug-img{
+	width:200px;
+	height:auto;}
