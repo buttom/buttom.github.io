@@ -72,18 +72,20 @@ table{
 	float:right;
 	text-decoration:none;
 	border-radius:8px;
-	font-size:18px;}
+	font-size:18px;
+	margin:0 10px 0 0;}
 #page-title h1{
 	float:left;
+	padding:0 0 0 10px;
 	}
 #page-title{
 	overflow:hidden;
 	margin:0 0 10px 0;
 	background:#fff;
 	position:fixed;
-	width:72.5%;
+	width:78%;
 	max-width:1000px;
-	padding:10px;
+	padding:13px 0;
 	top:0px;
 	background:#ffdbc3;}
 .data-table th{
@@ -92,3 +94,5 @@ table{
 .drug-img{
 	width:200px;
 	height:auto;}
+textarea.keyin-txt{
+	height:5em;}
