@@ -1,0 +1,226 @@
+/*
+Theme Name: iDea - Clean & Powerful Bootstrap Theme
+Author: HtmlCoder
+Author URI: http://www.htmlcoder.me
+Author e-mail: htmlcoder.me@gmail.com
+Version: 1.2.0 
+Created: August 2014
+License URI: http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+.navbar-default .navbar-nav > li > a.dt-hot{
+	font-weight:bold;
+	color:#e62e8b;
+	position:relative;}
+#fb-icon{
+	position:absolute;
+	right:6%;
+	top:0px;}
+.dt-hot-icon{
+	display:block;
+	position:absolute;
+	left:15px;
+	top:-8px;
+	font-size:12px;
+	padding:4px 6px;
+	line-height:1em;
+	color:#fff;
+	background:#e62e8b;
+	border-radius:5px;}
+.candidates{
+	background:#fff;
+	}
+.custom-block-01 h4{
+	text-align:center;}
+.custom-block-01 .image-box{
+	background:none;
+	border:none;}
+.politics-info img{
+	display:block;
+	margin:auto;
+	max-width:120px;
+	}
+.politics-info h4{
+	font-size:40px;}
+.sline{
+	padding:0 0 50px 0;
+	width:85%;
+	margin:auto;
+	border-bottom:1px solid #dbdbdb;
+	clear:both;}
+.politics-01 h4 a{	color:#962e8d;}
+.politics-02 h4 a{	color:#e60035;}
+.politics-03 h4 a{	color:#fdd001;}
+.politics-02{
+	border-left:1px solid #dbdbdb;
+	border-right:1px solid #dbdbdb;}
+
+
+.candidates h2{
+	text-align:center;
+	font-size:26px;
+	color:#979797;
+	padding-bottom:30px;
+	font-weight:bold;
+	}
+.candidates .container{
+	width:75%;
+	}
+.candidates .image-box{
+	background:#ccc;
+	margin:0 0 30px 0;
+	position:relative;
+	overflow:hidden;
+	border-radius:300px;}
+.candidates .image-box h4{
+	position:absolute;
+	top:50%;
+	width:100%;
+	margin:-17px 0 0 0;
+	height:34px;
+	font-size:32px;
+	letter-spacing:1px;
+	}
+.candidates .image-box h4 a{color:#fff;
+text-shadow:1px 1px 5px #000;}
+	
+.candidates .col-md-2{
+	width:20%;}
+.candidates .col-md-2 img{
+	width:100%;}
+.politics-info-together{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	font-size:22px;
+	font-weight:bold;}
+.politics-info-together li{
+	border-bottom:1px solid #d2d2d2;
+	}
+.politics-info-together a{
+	display:block;
+	padding:30px 80px;
+	color:#797775;
+	background-repeat:no-repeat;}
+.politics-info-together a:hover{
+	text-decoration:none;
+	background-color:#f1f1f1;}
+.custom-block-02{
+	padding-top:60px;}
+.color-01{
+	color:#962e8d;}
+.color-02{
+	color:#07a33e;}
+.color-03{
+	color:#00aeea;}
+.color-04{
+	color:#e60035;}
+.color-05{
+	color:#e62e8b;}
+#pit-01{
+	background-image:url(../images/icon01.png);
+	background-position:30px 27px;}
+#pit-02{
+	background-image:url(../images/icon02.png);
+	background-position:25px 27px;}
+#pit-03{
+	background-image:url(../images/icon03.png);
+	background-position:20px 27px;}
+#pit-04{
+	background-image:url(../images/icon04.png);
+	background-position:20px 27px;}
+#pit-05{
+	background-image:url(../images/icon05.png);
+	background-position:20px 27px;}
+.page-intro{
+	background:none;
+	box-shadow:none;
+	border-bottom:none;
+	}
+.page-intro .container{padding-left:40px;}
+.breadcrumb > li + li::before {
+    content: "> ";
+}
+.breadcrumb > .active {
+	color:#ababab;}
+.breadcrumb a{
+	color:#797774;}
+.page-intro{
+	padding:20px 0 0 0;}
+.sdp-about .container{
+	padding:0 15%;
+	width:auto;
+	font-size:18px;
+	line-height:2em;
+	
+	}
+.sdp-about{
+	background:url(../images/ccbg.png) repeat-y 90% top;}
+.sdp-about .container h2{
+	font-weight:bold;
+	color:#797775;}
+.sdp-about .container .separator-2{
+	width: 45px;
+height: 8px;
+background-color: #f8c8c3;}
+.list-icons li{
+	background:url(../images/libg-01.png) no-repeat 3px 17px;
+	padding:0 0 0 18px;
+	font-weight:bold;}
+.list-icons li span{
+	color:#c6c6c6;}
+.sdp-about .container h3{
+	background:#797775;
+	color:#fff;
+	padding:6px 12px;
+	max-width:480px;}
+.gprice{
+	color:#9a9897;}
+.gprice span{
+	color:#f5a08c;}
+@media screen and (max-width: 992px) {
+    .politics-02{
+		border:none;
+		}
+	.politics-info img{
+	max-width:100%;
+	}
+	.politics-info  .col-md-4{
+		float:left;
+		width:33.33%;}
+		.candidates .col-md-2{
+			float:left;
+	width:33.33%;}
+}
+@media (max-width:767px) {
+	.dt-hot-icon{
+	left:85px;
+	top:13px;
+}
+#fb-icon{
+	right:2%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+.candidates .container{
+	width:85%;
+	}
+	.politics-info h4{
+		font-size:32px;
+		}
+		.candidates .col-md-2{
+	width:50%;}
+}
+
+@media screen and (max-width: 420px) {
+
+	.politics-info  .col-md-4{
+		float:none;
+		width:auto;
+		margin:0 0 30px 0;}
+		.candidates .col-md-2{
+			float:none;
+	width:auto;}
+}
