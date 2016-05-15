@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ol,ul{
+	margin:0px;
+	padding:0px;}
+body{
+	
+	font-family:微軟正黑體;}
+a{
+	color:#ececec;}
+#all-wrap{	margin:0 auto;
+height: 100vh;
+position: relative;}
+#header{
+	height:40px;
+	overflow:hidden;}
+#header a{
+	display:block;
+	width:172px;
+	height:14px;
+	background:url(../images/logo.png);
+	text-indent:-1000px;
+	overflow:hidden;
+	margin:10px 0 0 14px;
+	}
+.block{
+	min-width:200px;
+	padding:80px 14%;
+	
+	color:#fff;
+	font-size:24px;
+	overflow:hidden;}
+.block h2{
+	font-size:42px;
+	color:#fff336;
+	line-height:1.1em;}
+.stxt{
+	line-height:1.6em;}
+#block-01 h2{
+	display:none;
+	}
+#block-01{
+	min-height:300px;
+	background:url(../images/bbicon.png) no-repeat center 85px;
+	padding:105px 0;
+	}
+#block-01 p{
+	font-size:15px;
+	color:#000;
+	font-family:新細明體;
+	letter-spacing:1px;
+	clear:both;
+	padding:10px 0;
+	text-align:center;
+	}
+#download-form {
+	position:relative;
+	width:436px;
+	margin:190px auto 0 auto;
+	
+	overflow:hidden;}
+#download-form label{
+	position:absolute;
+	font-size:30px;
+	color:#c0c0c0;
+	left:10px;
+	top:5px;
+	}
+.input-txt{
+	width:255px;
+	height:55px;
+	border-radius:10px;
+	border-bottom-right-radius:0px;
+	border-top-right-radius:0px;
+	display:block;
+	border:none;
+	float:left;
+	font-size:22px;
+	padding:0 10px;
+	box-shadow: 2px 2px 9px 1px #cbcbcb inset;}
+::-webkit-input-placeholder { color:#c0c0c0; }
+::-moz-placeholder { color:#c0c0c0; } /* firefox 19+ */
+:-ms-input-placeholder { color:#c0c0c0; } /* ie */
+input:-moz-placeholder { color:#c0c0c0; }
+.donwload-btn{
+	border-radius:10px;
+	border-bottom-left-radius:0px;
+	border-top-left-radius:0px;
+	display:block;
+	border:none;
+	float:left;
+	height:55px;
+	font-size:30px;
+	background:red;
+	font-family:微軟正黑體;
+	padding: 0 20px;
+	color:#fff;
+	cursor:pointer;
+	box-shadow: 2px 2px 9px 1px #ccc inset;}
+
+#footer{
+	background:#000;
+	text-align:center;
+	height:50px;
+	overflow:hidden;
+	color:#fff;
+	line-height:50px;
+position: absolute;
+bottom: 0px;
+width: 100vw;}
+#footer-logo{
+	overflow:hidden;
+	width:378px;
+	margin:0 auto;}
+#footer-logo img,#footer-logo span{
+	display:block;
+	margin:0 auto;
+	font-size:30px;}
+#footer-logo span{
+	color:#ccc;}
+.ff01{
+	padding:8px 0 0 0;}
