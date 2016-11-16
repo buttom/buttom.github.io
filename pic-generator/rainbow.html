@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Examples</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="" rel="stylesheet">
+		<style>
+			.pic{width: 640px;height: 640px;overflow: hidden;border: 1px solid #ccc;}
+			.pic-holder{width: 640px;height: 640px;overflow: hidden;background: #ccc;}
+			.preview{max-width: 100%}
+			.write-txt{height: 100px;text-align: center;font-size: 28px;line-height: 2em;letter-spacing: 2px;margin:-150px 0 0 250px;}
+			.write-txt input{border: none;border-bottom:1px solid #ccc;font-size: 28px;width: 140px;text-align: center;}
+			fieldset{width: 660px;}
+		</style>
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.js "></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-3.0.0.js "></script>
+		<script src="http://html2canvas.hertzen.com/build/html2canvas.js"></script>
+	</head>
+	<body>
+		<form>
+			<p>1.預覽 & 輸入文字：</p>
+			<div class="pic">
+			<div class="pic-holder">
+				<img class="preview" src="rainbow.jpg">
+				</div>
+				<div class="write-txt">
+					我是
+					<input type="text"><br>
+					我支持婚姻平權
+				</div>
+			</div>
+		</form>
+		<p>3.產生圖檔：<input type="button" value="產生圖檔" /></p>
+		<p>圖檔產生後，請於圖片上按右鍵另存圖片下載</p>
+		<fieldset>
+			<legend>圖檔</legend>
+			<div>
+			</div>
+		</fieldset>
+		<script>
+		$(":button").click(function() {
+		html2canvas($(".pic")[0], {
+		onrendered: function(canvas) {
+		var $div = $("fieldset div");
+		$div.empty();
+		$("<img />", { src: canvas.toDataURL("image/png") }).appendTo($div);
+		}
+		});
+		});
+		</script>
+	</body>
+</html>
