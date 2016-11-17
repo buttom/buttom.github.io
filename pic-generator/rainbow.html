@@ -14,6 +14,15 @@
 			.write-txt{height: 100px;text-align: center;font-size: 36px;line-height: 2em;letter-spacing: 2px;margin:-250px 0 0 230px;}
 			.write-txt input{border: none;border-bottom:1px solid #ccc;font-size: 36px;width: 180px;text-align: center;}
 			fieldset{width: 660px;}
+			.cbutton{
+				border-radius: 5px;
+				background: #6d05fe;
+				color: #fff;
+				border:none;
+				font-size: 18px;
+				padding: 10px 15px;
+				cursor: pointer;
+			}
 		</style>
 		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.js "></script>
 		<script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-3.0.0.js "></script>
@@ -21,7 +30,7 @@
 	</head>
 	<body>
 		<form>
-			<p>1.預覽 & 輸入文字：</p>
+			<p>1.預覽 & 於_____輸入文字：</p>
 			<div class="pic">
 			<div class="pic-holder">
 				<img class="preview" src="rainbow.jpg">
@@ -33,7 +42,7 @@
 				</div>
 			</div>
 		</form>
-		<p>3.產生圖檔：<input type="button" value="產生圖檔" /></p>
+		<p>2. <input type="button" value="按我產生圖檔" class="cbutton" /></p>
 		<p>圖檔產生後，請於圖片上按右鍵另存圖片下載</p>
 		<fieldset>
 			<legend>圖檔</legend>
